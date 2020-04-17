@@ -1,12 +1,12 @@
 {
   "name": "window",
   "version": "1.0.0",
-  "description": "",
+  "description": "проект сайта для продажи окон",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Artem Rusaleev",
   "license": "ISC",
   "browserslist": [
     "> 1%",
@@ -20,8 +20,27 @@
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
     "core-js": "^3.4.2",
-    "gulp": "^4.0.2",
     "webpack": "^4.41.2",
     "webpack-stream": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemrusaleev/irvas-windows.git"
+  },
+  "keywords": [
+    "js",
+    "babel",
+    "css",
+    "html",
+    "native"
+  ],
+  "bugs": {
+    "url": "https://github.com/artemrusaleev/irvas-windows/issues"
+  },
+  "homepage": "https://github.com/artemrusaleev/irvas-windows#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "jquery": "^3.5.0",
+    "slick-carousel": "^1.8.1"
   }
 }
