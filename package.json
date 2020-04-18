@@ -40,7 +40,7 @@
   "homepage": "https://github.com/artemrusaleev/irvas-windows#readme",
   "dependencies": {
     "gulp": "^4.0.2",
-    "jquery": "^3.5.0",
+    "jquery": "^3.5.1",
     "slick-carousel": "^1.8.1"
   }
 }
