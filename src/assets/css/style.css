@@ -4,7 +4,7 @@
 html {
   /* overflow-x: hidden; */
   font-size: 10px;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 body {
@@ -19,6 +19,19 @@ body {
   color: red;
 }
 
+.faded {
+  animation-name: faded;
+  animation-duration: 0.5s;
+}
+
+@keyframes faded {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
 a:hover {
   text-decoration: none;
 }
@@ -932,6 +945,7 @@ textarea:focus {
   display: none;
   margin-bottom: 3rem;
   width: 30rem;
+  height: 20rem;
 }
 
 .popup_calc_content #type1 {
